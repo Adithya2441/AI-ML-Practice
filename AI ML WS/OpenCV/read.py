@@ -2,8 +2,10 @@ import cv2 as cv
 
 
 #read images using imread()
+#pass the path of the img
 img = cv.imread('Photos/cat_large.jpg')
 #show images in seperate window using imshow()
+#pass window name and the img
 cv.imshow('Cat',img)
 
 #wait for a key to be press 
@@ -23,6 +25,9 @@ while True:
     #if d is pressed break
     if cv.waitKey(20) & 0xFF==ord('d'):
         break
+
+    #Gives error as the frames end after a point
+    #python cant find any more frames in that loc
 
 #releases pointer
 capture.release()
