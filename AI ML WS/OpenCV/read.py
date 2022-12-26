@@ -1,14 +1,14 @@
 import cv2 as cv
 
 
-""" #read images using imread()
+#read images using imread()
 img = cv.imread('Photos/cat_large.jpg')
 #show images in seperate window using imshow()
 cv.imshow('Cat',img)
 
 #wait for a key to be press 
 cv.waitKey(0)
- """
+
 
 #Reading Videos
 
